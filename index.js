@@ -59,7 +59,7 @@ function serveUpload(root) {
           file.pipe(fs.createWriteStream(path.join(fullPath, filename)))
         })
         busboy.on('finish', function () {
-          res.writeHead(302, { 'Location': req.path })
+          res.writeHead(302, { 'Location': url.path })
           res.end()
         })
         req.pipe(busboy)
