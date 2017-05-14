@@ -1,5 +1,7 @@
 # serve-upload
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Gerhut/serve-upload.svg)](https://greenkeeper.io/)
+
 Serve upload files in connect
 
 ## Install
